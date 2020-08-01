@@ -11,9 +11,8 @@ body {
     text-align: center;
     margin-top: 27%;
     color: rgb(52, 52, 243);
-    font-style: inherit;
     text-shadow: rgb(240, 92, 92) 0 3px 0;
-    font-weight: 600;
+    font-weight: bold;
 
 }
 
@@ -21,7 +20,8 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     background-color: rgb(71, 255, 86);
     margin-left: 45%;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: bold;
     text-decoration: none;
     text-decoration-style: none;
     transition: all .45s ease-Out;

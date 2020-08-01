@@ -138,7 +138,16 @@ h1 {
 }
 
 h3 {
- 
-  color: rgb(45, 226, 75);
-  right: 190%;
+  position: absolute;
+  color: rgb(80, 247, 58);
+  right: 14%;
+  top:20%;
+}
+h4 {
+  position: absolute;
+  color: rgb(85, 235, 118);
+  right: 14%;
+  top:22%;
+  padding: 2%;
+  margin: 5;
 }

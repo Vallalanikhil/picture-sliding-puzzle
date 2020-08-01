@@ -42,7 +42,7 @@ function timedRefresh(timeoutPeriod) {
 swapTiles.onload = timedRefresh(300000);
 
 function shuffle() {
-
+  sessionStorage.clear(count);
   for (var row = 1; row <= 3; row++) {
 
     for (var column = 1; column <= 3; column++) {
