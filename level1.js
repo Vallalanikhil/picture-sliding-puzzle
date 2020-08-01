@@ -2,7 +2,7 @@ var count = 0;
 
 function swapTiles(block11, block12) {
   count++;
-  console.log("number" + count);
+  console.log("number " + count);
   sessionStorage.setItem('count', count);
   document.getElementById('steps').innerHTML = count - 9;
   var temp = document.getElementById(block11).className;
@@ -42,7 +42,7 @@ function timedRefresh(timeoutPeriod) {
 swapTiles.onload = timedRefresh(300000);
 
 function shuffle() {
-  sessionStorage.clear(count);
+  count = 0;
   for (var row = 1; row <= 3; row++) {
 
     for (var column = 1; column <= 3; column++) {
@@ -56,6 +56,7 @@ function shuffle() {
 }
 
 function clickTile(row, column) {
+  
   var audio = document.getElementById("audio");
   audio.play();
   var block = document.getElementById("block" + row + column);

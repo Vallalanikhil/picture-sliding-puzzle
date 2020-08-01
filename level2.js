@@ -11,7 +11,7 @@ function swapTiles(block11, block12) {
   ).className;
   document.getElementById(block12).className = temp;
 }
-
+//setting the for the game
 function startTimer(duration, display) {
   var timer = duration,
     minutes, seconds;

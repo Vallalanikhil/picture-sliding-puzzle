@@ -138,13 +138,13 @@ h1 {
 }
 
 h3 {
-  position: absolute;
+  position: fixed;
   color: rgb(80, 247, 58);
   right: 14%;
   top:20%;
 }
 h4 {
-  position: absolute;
+  position: fixed;
   color: rgb(85, 235, 118);
   right: 14%;
   top:22%;

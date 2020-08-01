@@ -143,14 +143,14 @@ h2 {
 }
 
 h3 {
-  position: absolute;
+  position: fixed;;
   color: tomato;
   right: 14%;
   top:24%;
 }
 
 h4 {
-  position: absolute;
+  position:fixed;
   color: tomato;
   right: 14%;
   top:26%;
